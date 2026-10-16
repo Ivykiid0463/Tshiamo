@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>For My Sis 💕</title>
+<link href="https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{
+  background:#fff0f5;
+  background-image: radial-gradient(#ffb6d9 1.4px, transparent 1.4px), radial-gradient(#a2c9ff 1.4px, transparent 1.4px);
+  background-size: 28px 28px; background-position: 0 0, 14px 14px;
+  font-family:'Poppins',sans-serif;min-height:100vh;
+  display:flex;justify-content:center;padding:22px
+}
+.shell{width:100%;max-width:440px}
+.pill-top{
+  display:flex;justify-content:center;gap:8px;margin-bottom:14px
+}
+.pill-top span{
+  background:white;border:1.5px solid #ffd6e7;padding:6px 14px;
+  border-radius:100px;font-size:10px;font-weight:800;letter-spacing:1px
+}
+.pill-top span:first-child{color:#ff4d8d}
+.pill-top span:last-child{color:#5b8def;background:#e8f0ff;border-color:#dbe8ff}
+
+.title{font-family:'Bagel Fat One',cursive;font-size:52px;line-height:.9;color:#ff4d8d;text-align:center}
+.title i{font-style:normal;color:#a2c9ff}
+.subtitle{text-align:center;margin-top:6px;font-size:11px;font-weight:800;letter-spacing:3px;color:#ff8ab3}
+
+.stack{position:relative;height:240px;margin:18px 10px 0}
+.polaroid{
+  position:absolute;left:50%;top:0;width:220px;background:white;
+  padding:10px 10px 38px;border-radius:4px;
+  box-shadow:0 10px 30px rgba(0,0,0,.12);border:1px solid #ffe1ea
+}
+.polaroid img{width:100%;height:190px;object-fit:cover;border-radius:2px;display:block}
+.polaroid .cap{position:absolute;bottom:10px;left:10px;right:10px;text-align:center;font-family:'Bagel Fat One',cursive;color:#ff4d8d;font-size:16px}
+.p1{transform:translateX(-58%) rotate(-6deg);z-index:1}
+.p2{transform:translateX(-42%) rotate(5deg);z-index:2;background:#fdfcff}
+.p2:after{content:'';position:absolute;top:-10px;right:20px;width:68px;height:20px;background:#e0edff;transform:rotate(6deg)}
+.p2 img{filter:saturate(1.1)}
+
+.bento{margin-top:16px;display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.card{
+  background:white;border-radius:22px;padding:16px;
+  border:2px solid #ffd6e7;box-shadow:0 8px 20px rgba(255,77,141,.08)
+}
+.card.full{grid-column:1/-1}
+.card h4{font-size:10px;letter-spacing:1.5px;font-weight:800;margin-bottom:8px}
+.card h4.pink{color:#ff4d8d}.card h4.blue{color:#5b8def}
+.card b{font-size:20px;display:block}.card span{font-size:11px;color:#9aa3b8;font-weight:600}
+
+.letter-wrap{margin-top:14px;background:white;border-radius:28px;padding:0;border:2px solid #ffd6e7;overflow:hidden;box-shadow:0 14px 40px rgba(255,77,141,.12)}
+.letter-head{display:flex;justify-content:space-between;align-items:center;padding:14px 18px;background:linear-gradient(90deg,#fff0f5,#e8f0ff);border-bottom:2px solid #ffd6e7}
+.letter-head div{font-size:10px;font-weight:800;letter-spacing:1px}
+.letter-head div b{font-size:12px;display:block}
+.dots{display:flex;gap:5px}.dots i{width:8px;height:8px;border-radius:50%;display:block}
+.letter-body{padding:22px 20px}
+.typewriter{line-height:1.85;font-size:14.5px;min-height:320px;white-space:pre-wrap;color:#4a2a3a}
+.cursor{display:inline-block;width:9px;height:16px;background:#ff4d8d;animation:blink 1s infinite;vertical-align:middle;margin-left:2px;border-radius:2px}
+@keyframes blink{0%,50%{opacity:1}50.1%,100%{opacity:0}}
+.progress{height:6px;background:#ffe4ec;border-radius:100px;overflow:hidden;margin-top:14px}
+.progress-bar{height:100%;background:linear-gradient(90deg,#8fb6ff,#ff8ab3);width:0%;transition:.3s}
+
+.controls{display:flex;gap:10px;margin-top:14px}
+.btn{flex:1;border:none;padding:13px;border-radius:100px;font-weight:800;font-size:12px;cursor:pointer;letter-spacing:.5px}
+.btn-auto{background:#ff4d8d;color:white;box-shadow:0 8px 18px rgba(255,77,141,.35)}
+.btn-manual{background:#e8f0ff;color:#5b8def;border:2px solid #dbe8ff}
+
+.footer{text-align:center;margin:18px 0 30px;font-size:11px;color:#ff8ab3;font-weight:600}
+.hearts{position:fixed;inset:0;pointer-events:none;overflow:hidden;z-index:99}
+.heart{position:absolute;bottom:-20px;animation:rise linear forwards}
+@keyframes rise{0%{transform:translateY(0) rotate(0deg) scale(.6);opacity:1}100%{transform:translateY(-110vh) rotate(360deg) scale(1.2);opacity:0}}
+</style>
+</head>
+<body>
+<div class="hearts" id="hearts"></div>
+<div class="shell">
+
+  <div class="pill-top"><span>💌 FOR TSITSI</span><span>🩵 GOOD LUCK ERA</span></div>
+
+  <div class="title">hey <i>TSHIAMO!</i></div>
+  <div class="subtitle">SESI TSITSI</div>
+
+  <div class="stack">
+    <div class="polaroid p1"><img src="pic2.jpg"><div class="cap">my sister 🌸</div></div>
+    <div class="polaroid p2"><img src='pic1.jpg' id="chulaImg" onerror="this.src='https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=400&h=400&fit=crop'"><div class="cap">my fav neigbour;) 💖</div></div>
+  </div>
+
+  <div class="bento">
+    <div class="card"><h4 class="pink">DAYS YOU WORKED</h4><b>222+</b><span>days of showing up</span></div>
+    <div class="card"><h4 class="blue">YOUR MODE</h4><b>A-GAME</b><span>only that, nothing less</span></div>
+    <div class="card full" style="display:flex;justify-content:space-between;align-items:center"><div><h4 class="pink">STATUS</h4><b style="font-size:16px">READY • FOCUSED • HER 💅</b></div><div style="background:#e8f0ff;color:#5b8def;width:36px;height:36px;border-radius:50%;display:flex;align-items:center;justify-content:center">🩵</div></div>
+  </div>
+
+  <div class="letter-wrap">
+    <div class="letter-head">
+      <div><b style="color:#ff4d8d">LETTER FOR SESI TSITSI</b>GOOD LUCK FINALS • 2026</div>
+      <div class="dots"><i style="background:#ff8ab3"></i><i style="background:#a2c9ff"></i><i style="background:#ffd6a0"></i></div>
+    </div>
+    <div class="letter-body">
+      <div id="typewriter" class="typewriter"></div>
+      <div class="progress"><div class="progress-bar" id="progress"></div></div>
+      <div class="controls"><button class="btn btn-auto" onclick="startAuto()">💗 Auto Play</button><button class="btn btn-manual" onclick="manualNext()">👉 Tap</button></div>
+    </div>
+  </div>
+
+  <div class="footer">made with 💕 by someone who knows you'll ace it<br><span style="font-family:'Bagel Fat One',cursive;font-size:18px;color:#ff4d8d">- Thabiso</span></div>
+
+</div>
+
+<script>
+let fullText = `To TSHIAMO(sesi tsitsi),
+
+This is your official good luck letter for your final year-end exams!
+
+Listen, I won't lie and say it'll be easy, but you? You've been working for 222 days straight... No one does that just to come and not bring their A-Game. Your prep is done, your energy is right.
+
+You are one of my few favourite people,even though we talk less or non about that,but i value you to a point whereby you have not even a faint idea how much you mean to me.... Your vibe, your personality, your uniqueness...that Sesi Tsitsi beauty you srrving daily that no one else can copy. You've been through a lot and you're still here, still pushing, still smilling whenever you can.
+
+So when you walk into that exam room:
+
+• You've already done the hard part
+• You know more than you think
+• One paper doesn't define you
+• And I'm cheering for you super loud from this side
+
+If you get nervous, just breathe, pray a little, and tell yourself "I got this" — because you DO.
+
+Go smash it, Tsitsi. Ace it. Finish strong. Then we celebrate with ,Well i hate doing this here but as a gentle man,I'll offer two options,Kota or Ice Cream date ,date will be determined by your choice.
+
+All the love and luck in the world,
+
+Thabiso`;
+
+let i=0,isAuto=false,autoInterval=null;
+const el=document.getElementById('typewriter');
+const progress=document.getElementById('progress');
+function updateProgress(){progress.style.width=(i/fullText.length*100)+'%';}
+function typeChar(){if(i<fullText.length){el.innerHTML=fullText.substring(0,i).replace(/\n/g,'<br>')+'<span class="cursor"></span>';i++;updateProgress();if(i%26==0)spawnHeart();}else{clearInterval(autoInterval);isAuto=false;el.innerHTML=fullText.replace(/\n/g,'<br>');for(let k=0;k<16;k++)setTimeout(spawnHeart,k*100);}}
+function startAuto(){if(isAuto)return;isAuto=true;autoInterval=setInterval(typeChar,36);}
+function manualNext(){clearInterval(autoInterval);isAuto=false;let target=Math.min(i+140,fullText.length);i=target;el.innerHTML=fullText.substring(0,i).replace(/\n/g,'<br>')+'<span class="cursor"></span>';updateProgress();spawnHeart();if(i>=fullText.length){el.innerHTML=fullText.replace(/\n/g,'<br>');}}
+function spawnHeart(){const hearts=['💖','💕','💗','🌸','✨','🩵'];const h=document.createElement('div');h.className='heart';h.innerText=hearts[Math.floor(Math.random()*hearts.length)];h.style.left=Math.random()*100+'vw';h.style.fontSize=(16+Math.random()*18)+'px';h.style.animationDuration=(3+Math.random()*3)+'s';document.getElementById('hearts').appendChild(h);setTimeout(()=>h.remove(),6000);}
+setTimeout(startAuto,800);
+</script>
+</body>
+</html>o
